@@ -20,8 +20,5 @@ def bubble_sort(li):
 
 ## Time Complexity
 |Best   |O(N)  |
-|-------|------|
 |Average|O(N^2)|
-|-------|------|
 |Worst  |O(N^2)|
-|-------|------|
