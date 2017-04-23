@@ -19,6 +19,6 @@ def bubble_sort(li):
 ## Space Complexity: O(1)
 
 ## Time Complexity
-|Best   |O(N)  |
-|Average|O(N^2)|
-|Worst  |O(N^2)|
+| Best | Average| Worst |
+| -----|:------:| -----:|
+| O(N) | O(N^2) | O(N^2)|
