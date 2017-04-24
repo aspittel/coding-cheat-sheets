@@ -5,6 +5,7 @@ Arrays are the most basic data structure. For an array, the user must declare it
 * Each cell in an array uses the same number of bytes, so usually the array will actually just store a pointer to the actual object rather than storing it within the contiguous block of memory.
 * ```address = start + (cellsize * index)```
 
+
 |Operation|Complexity|
 |---------|----------|
 |Access   |O(1)      |
