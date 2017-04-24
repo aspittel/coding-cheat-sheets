@@ -1,4 +1,4 @@
-#Big-O Notation
+# Big-O Notation
 Big-O Notation refers to either the time or memory complexity of a problem or the solution to it. O stands for order.
 
 ## O(1) Complexity
