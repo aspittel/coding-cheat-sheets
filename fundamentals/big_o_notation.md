@@ -36,7 +36,7 @@ def print_each_n_times(li):
 ```
 
 ## O(log n) and O(n log(n)) complexity
-These are mostly found in sorting algorithms where processing time increases based on input size. A good example of this is a binary search through a pre-sorted list.
+These are mostly found in sorting algorithms where processing time increases based on input size. A good example of this is a binary search through a pre-sorted list. [Here](http://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly) is a great explanation of these complexities.
 
 ### Example
 ```python
