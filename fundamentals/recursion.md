@@ -1,5 +1,5 @@
 # Recursion
-Recursion is when a function calls itself. This requires at least O(n) memory usage for the stack storing the function calls. 
+Recursion is when a function calls itself. This requires at least O(n) memory usage for the stack storing the function calls. [Here](https://www.youtube.com/watch?v=k0bb7UYy0pY) is a great explanation of stack usage in recursive functions.
 
 ### Code Example
 ```python
