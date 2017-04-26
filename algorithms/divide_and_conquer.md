@@ -5,9 +5,9 @@ Divide and conquer is "an algorithm design paradigm that is based on multi-branc
 ```
 		Problem (divide)
 	   /				\
-	  /					 \
+	  /                  \
 subproblem			 subproblem 
-	  \					 /
+	  \	                 /
 	   \			    /
 	   	    Solution!	
 
