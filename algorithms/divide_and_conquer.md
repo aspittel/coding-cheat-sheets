@@ -2,7 +2,7 @@
 
 Divide and conquer is "an algorithm design paradigm that is based on multi-branch recursion. It takes a larger problem and breaks it into 2+ sub-problems" ([Wikipedia](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm)). [Merge soring](https://github.com/aspittel/coding_cheat_sheets/blob/master/sorting/mergesort.md) and some fibonacci algorithms are implementations of the divide and conquer algorithm. These are especially useful on multi-rocessor systems.
 
-<center>
+```
 		Problem (divide)
 	   /				\
 	  /					 \
@@ -11,7 +11,7 @@ subproblem			 subproblem
 	   \			    /
 	   	    Solution!	
 
-</center>
+```
 
 ## Code Example
 ```python
