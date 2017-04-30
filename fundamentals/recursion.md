@@ -23,3 +23,16 @@ def factorial(n):
 		factorial_memo[n] = n * factorial(n-1)
 	return factorial_memo[n]
 ```
+
+## Practice Problems
+|Problem   |My Solution|
+|----------|-----------|
+|[See how many ways given coins can add up to a sum*](https://www.hackerrank.com/challenges/ctci-coin-change)|https://github.com/aspittel/coding_problems/blob/master/recursion/coin_change.py|
+|[See how many ways someone can walk up stairs](https://www.hackerrank.com/challenges/ctci-recursive-staircase)|https://github.com/aspittel/coding_problems/blob/master/recursion/davis_staircase.py|
+|Calculate a factorial|https://github.com/aspittel/coding_problems/blob/master/recursion/factorial.py|
+|[Generate the nth number in the fibonacci sequence](https://www.hackerrank.com/challenges/ctci-fibonacci-numbers)|https://github.com/aspittel/coding_problems/blob/master/recursion/fibonacci_numbers.py|
+|[Find the number of ways numbers to the nth power can add up to a given number](https://www.hackerrank.com/challenges/the-power-sum)|https://github.com/aspittel/coding_problems/blob/master/recursion/possible_powers.py|
+|[Add the digits of a number until there is only one digit left](https://www.hackerrank.com/challenges/recursive-digit-sum/)|https://github.com/aspittel/coding_problems/blob/master/recursion/super_sum_digits.py|
+|[Calculate how fast an advertisement goes viral](https://www.hackerrank.com/challenges/strange-advertising)|https://github.com/aspittel/coding_problems/blob/master/recursion/viral_advertising.py|
+
+*My solution was not recursive, but this is a typical recursion problem

@@ -12,6 +12,7 @@ Linked lists are graph data structures that consist of nodes and pointers. There
 |Insert   |O(1)      |
 |Delete   |O(1)      | 
 
+## Practice Problems
 |Problem   |My Solution|
 |----------|-----------|
 |[Check to see if a linked list has a cycle](https://www.hackerrank.com/challenges/ctci-linked-list-cycle)|https://github.com/aspittel/coding_problems/blob/master/linked_lists/has_cycle.py|
