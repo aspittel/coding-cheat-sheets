@@ -36,3 +36,23 @@ Arrays are the most basic data structure. For an array, the user must declare it
 |[Find the max subarray](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)|https://github.com/aspittel/coding_problems/blob/master/arrays/sum_max_subarray.py|
 |[URLify a string](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)|https://github.com/aspittel/coding_problems/blob/master/arrays/urlify.py|
 |[Zero a matrix](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)|https://github.com/aspittel/coding_problems/blob/master/arrays/zero_matrix.py|
+|[Add the even numbers in the Fibonacci sequence](https://projecteuler.net/problem=2)|Not posted, ask if interested!|
+|[Find the largest prime factor of a number](https://projecteuler.net/problem=3)|Not posted, ask if interested!|
+|[Find the largest palindrome project](https://projecteuler.net/problem=4)|Not posted, ask if interested!|
+|[Smallest multiple](https://projecteuler.net/problem=5)|Not posted, ask if interested!|
+|[Smallest square difference](https://projecteuler.net/problem=6)|Not posted, ask if interested!|
+|[10001st prime product](https://projecteuler.net/problem=8)|Not posted, ask if interested!|
+|[Largest product in a grid](https://projecteuler.net/problem=11)|Not posted, ask if interested!|
+|[Large sum](https://projecteuler.net/problem=13)|Not posted, ask if interested!|
+|[Find longest Collatz sequence](https://projecteuler.net/problem=14)|Not posted, ask if interested!|
+|[Number letter counts](https://projecteuler.net/problem=17)|Not posted, ask if interested!|
+|[Maximum path sum I](https://projecteuler.net/problem=18)|Not posted, ask if interested!|
+|[Non-abundant sums](https://projecteuler.net/problem=23)|Not posted, ask if interested!|
+|[Lexicographic permutations](https://projecteuler.net/problem=24)|Not posted, ask if interested!|
+|[Quadratic primes](https://projecteuler.net/problem=27)|Not posted, ask if interested!|
+|[Number spiral diagonals](https://projecteuler.net/problem=28)|Not posted, ask if interested!|
+|[Pandigital products](https://projecteuler.net/problem=32)|Not posted, ask if interested!|
+|[Circular primes](https://projecteuler.net/problem=34)|Not posted, ask if interested!|
+|[Double base palindromes](https://projecteuler.net/problem=36)|Not posted, ask if interested!|
+|[Truncatable primes](https://projecteuler.net/problem=37)|Not posted, ask if interested!|
+|[Maximum path sum II](https://projecteuler.net/problem=67)|Not posted, ask if interested!|
