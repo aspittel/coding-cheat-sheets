@@ -22,3 +22,6 @@ def bubble_sort(li):
 | Best | Average| Worst |
 | -----|:------:| -----:|
 | O(N) | O(N^2) | O(N^2)|
+
+## Additional Links
+* [Animated Bubble Sort Display](https://www.toptal.com/developers/sorting-algorithms/bubble-sort)

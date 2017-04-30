@@ -33,3 +33,6 @@ def merge(left, right):
 ## Space Complexity: O(n)
 
 ## Time Complexity: O(n log(n))
+
+## Additional Links
+* [Animated Merge Sort Display](https://www.toptal.com/developers/sorting-algorithms/merge-sort)
