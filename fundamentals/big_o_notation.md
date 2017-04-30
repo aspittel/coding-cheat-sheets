@@ -69,3 +69,7 @@ def binary_search(li, item, first=0, last=None):
 	else:
 		return binary_search(li, item, midpoint, last)
 ```
+
+## Other helpful links
+* [Stack Overflow: What is a plain English explanation of “Big O” notation?](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation?page=1&tab=votes#tab-top)
+*[Big O Cheat Sheet](http://bigocheatsheet.com/)
