@@ -5,7 +5,7 @@ Hash tables are often very efficient data structures. They store data using a co
 
 |Operation|Complexity|
 |---------|----------|
-|Access   |N/A       |
+|Access   |O(1)->O(n)|
 |Search   |O(1)->O(n)|
 |Insert   |O(1)->O(n)|
 |Delete   |O(1)->O(n)| 

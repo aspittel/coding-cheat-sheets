@@ -1,5 +1,5 @@
 # Quicksort
-Quicksorting is an algorithm in which a random element is selected from the array and then the array is partitioned so that all the numbers less than the element are placed before it and the ones greater than it are placed after it. This algorithm is efficient since swapping two elements in an array is usually a very quick process. If the randomly selected element isn't near the median, quicksorting can be inefficient. 
+Quicksorting is an algorithm in which a random element is selected from the array and then the array is partitioned so that all the numbers less than the element are placed before it and the ones greater than it are placed after it. This algorithm is efficient since swapping two elements in an array is usually a very quick process and it doesn't require using another data structure in intermediate steps. If the randomly selected element isn't near the median, quicksorting can be inefficient. 
 
 ## Sample Code
 ```python
