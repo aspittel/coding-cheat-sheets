@@ -20,3 +20,8 @@ class Stack:
 	def peek(self):
 		return self.data[-1]
 ```
+## Practice Problems
+|Problem   |My Solution|
+|----------|-----------|
+|[Implement a stack using two queues](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks)|https://github.com/aspittel/coding_problems/blob/master/stacks_and_queues/queue_from_two_stacks.py|
+|[Check to see if a sequence of parentheses is balanced](https://www.hackerrank.com/challenges/ctci-balanced-brackets)|https://github.com/aspittel/coding_problems/blob/master/stacks_and_queues/balanced_parentheses.py|

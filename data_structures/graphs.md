@@ -1,4 +1,4 @@
-# Graphing
+# Graphs
 Graphs are non-linear data structures that do not necessarily follow a numerical order. Graphs are similar to trees but with essentially no rules. A tree is a graph, but most graphs are not trees. 
 
 ```

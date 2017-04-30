@@ -2,7 +2,7 @@
 
 Merge sorting is usually more efficient than bubble sorting unless the array is pre-sorted. It always has O(n log(n)) complexity. The algorithm involves using devide and conquer recursion to a split an array until it consists of many arrays with lengths of one. It then merges those sub-arrays back together incrementally.
 
-## Sample Code
+## [Sample Code](https://github.com/aspittel/coding_problems/blob/master/sorting/merge_sort.py)
 ```python
 
 def merge_sort(li):

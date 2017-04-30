@@ -21,3 +21,7 @@ class Queue:
 	def peek(self):
 		return self.data[-1]
 ```
+## Practice Problems
+|Problem   |My Solution|
+|----------|-----------|
+|[Implement a stack using two queues](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks)|https://github.com/aspittel/coding_problems/blob/master/stacks_and_queues/queue_from_two_stacks.py|
