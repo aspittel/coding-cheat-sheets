@@ -1,5 +1,19 @@
 # Big-O Notation
-Big-O Notation refers to either the time or memory complexity of a problem or the solution to it. O stands for order.
+Big-O Notation refers to how well an algorithm scales. There are two types of complexity that are normally measured with Big-O: time complexity and space complexity. Time complexity refers to the number of operations that execute depending on the number or size of the inputs. Space complexity refers to how much memory the algorithm will use when executing. O(1) complexity is really good, O(N) complexity is usually pretty good as well, O(N^2) and up complexity is typically avoided when possible.
+
+## Scalability
+The following table shows how algorithms with different complexities scale when given different numbers of inputs. Note: some values are rounded.
+
+|Complexity |1|10      |100  |
+|-----------|-|--------|-----|
+|O(1)       |1| 1      |1    |
+|O(log N)   |0| 2      |5    |
+|O(N)       |1|10      |100                            |
+|O(N log N) |0|20      |461                            |
+|O(N^2)     |1|100     |10000                          | 
+|O(2^N)     |1|1024    |1267650600228229401496703205376|       
+|O(N!)      |1|3628800 |93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000 |
+
 
 ## O(1) Complexity
 O(1) means that an algorithm is static or constant. The complexity stays the same no matter the inputs.

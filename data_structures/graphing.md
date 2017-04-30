@@ -1,6 +1,14 @@
 # Graphing
 Graphs are non-linear data structures that do not necessarily follow a numerical order. Graphs are similar to trees but with essentially no rules. A tree is a graph, but most graphs are not trees. 
 
+```
+     A –→ B ←–––– C → D ↔ E
+     ↑    ↕     ↙ ↑     ↘
+     F –→ G → H ← I ––––→ J
+           ↓     ↘ ↑
+           K       L
+```
+Image from (itsy-bitsy-data-structures)[https://github.com/thejameskyle/itsy-bitsy-data-structures/blob/master/itsy-bitsy-data-structures.js].
 
 Graphs have nodes (also called verticies) and edges. The node holds the data and then the edges point to related nodes. There are two types of edges: directed and undirected. Directed edges point in a direction whereas undirected edges point both ways. 
 
