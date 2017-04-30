@@ -23,6 +23,15 @@ def factorial(n):
 		factorial_memo[n] = n * factorial(n-1)
 	return factorial_memo[n]
 ```
+## Tail Recursion
+Tail recursion is where calculations are performed first and then the recursive call is executed. Some programming languages, usually functional ones, optimize tail calls so they take up less room on the call stack. 
+
+```python
+def factorial(n, running_total=1):
+	if x <= 1:
+		return running_total
+	return factorial(x-1, x * running_total)
+```
 
 ## Practice Problems
 |Problem   |My Solution|
