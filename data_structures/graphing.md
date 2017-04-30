@@ -8,7 +8,7 @@ Graphs are non-linear data structures that do not necessarily follow a numerical
            ↓     ↘ ↑
            K       L
 ```
-Image from (itsy-bitsy-data-structures)[https://github.com/thejameskyle/itsy-bitsy-data-structures/blob/master/itsy-bitsy-data-structures.js].
+Image from [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures/blob/master/itsy-bitsy-data-structures.js).
 
 Graphs have nodes (also called verticies) and edges. The node holds the data and then the edges point to related nodes. There are two types of edges: directed and undirected. Directed edges point in a direction whereas undirected edges point both ways. 
 
