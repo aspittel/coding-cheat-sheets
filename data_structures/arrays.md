@@ -20,7 +20,7 @@ Arrays are the most basic data structure. For an array, the user must declare it
 |[Check to see if two strings are anagrams of one another.](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/learn/v4/overview)| https://github.com/aspittel/coding_problems/blob/master/arrays/anagram_check.py|
 |[Check to see if two strings are permutations of each other.](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)|https://github.com/aspittel/coding_problems/blob/master/arrays/check_if_permutation.py|
 |[Compress a string](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)| https://github.com/aspittel/coding_problems/blob/master/arrays/compress_string.py|
-|(Count the differences in two strings)[https://www.hackerrank.com/challenges/ctci-making-anagrams]|https://github.com/aspittel/coding_problems/blob/master/arrays/count_differences.py|
+|[Count the differences between two strings](https://www.hackerrank.com/challenges/ctci-making-anagrams)|https://github.com/aspittel/coding_problems/blob/master/arrays/count_differences.py|
 |[Count the positive, negative, and zero values in an array](https://www.hackerrank.com/challenges/plus-minus?h_r=next-challenge&h_v=zen)|https://github.com/aspittel/coding_problems/tree/master/arrays|
 |[Count the valleys in a hike](https://www.hackerrank.com/challenges/counting-valleys)|https://github.com/aspittel/coding_problems/blob/master/arrays/count_valleys.py|
 |[Draw a pyramid given its height](https://www.hackerrank.com/challenges/staircase?h_r=next-challenge&h_v=zen)|https://github.com/aspittel/coding_problems/blob/master/arrays/create_pyramid.py|
