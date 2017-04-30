@@ -24,7 +24,7 @@ Arrays are the most basic data structure. For an array, the user must declare it
 |[Count the positive, negative, and zero values in an array](https://www.hackerrank.com/challenges/plus-minus?h_r=next-challenge&h_v=zen)|https://github.com/aspittel/coding_problems/tree/master/arrays|
 |[Count the valleys in a hike](https://www.hackerrank.com/challenges/counting-valleys)|https://github.com/aspittel/coding_problems/blob/master/arrays/count_valleys.py|
 |[Draw a pyramid given its height](https://www.hackerrank.com/challenges/staircase?h_r=next-challenge&h_v=zen)|https://github.com/aspittel/coding_problems/blob/master/arrays/create_pyramid.py|
-|[What is the number of deletions needed to make two arrays equal?](From https://www.hackerrank.com/challenges/equality-in-a-array)|https://github.com/aspittel/coding_problems/blob/master/arrays/equality_in_array.py|
+|[What is the number of deletions needed to make two arrays equal?](https://www.hackerrank.com/challenges/equality-in-a-array)|https://github.com/aspittel/coding_problems/blob/master/arrays/equality_in_array.py|
 |[Array left rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation)|https://github.com/aspittel/coding_problems/blob/master/arrays/left_rotation.py|
 |[Find the item in an array that doesn't have a match](https://www.hackerrank.com/challenges/ctci-lonely-integer)|https://github.com/aspittel/coding_problems/blob/master/arrays/lonely_integer.py|
 |[Find the diagonal difference in a matrix](https://www.hackerrank.com/challenges/diagonal-difference)|https://github.com/aspittel/coding_problems/blob/master/arrays/matrix_diagonal_difference.py|
