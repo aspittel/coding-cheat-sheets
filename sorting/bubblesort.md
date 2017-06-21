@@ -1,6 +1,6 @@
 # Bubble Sort
 
-Bubble sorting is oen of the simplest sorting algorithms. In order to implement this sort, the script starts on the left of the array and switches elements that are next to each other if they are in the wrong order. This usually requires multiple passes, unless the array is already sorted. 
+Bubble sorting is one of the simplest sorting algorithms. In order to implement this sort, the script starts on the left of the array and switches elements that are next to each other if they are in the wrong order. This usually requires multiple passes, unless the array is already sorted. 
 
 ## [Sample Code](https://github.com/aspittel/coding_problems/blob/master/sorting/bubble_sort.py)
 ```python
