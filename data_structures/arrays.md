@@ -1,13 +1,20 @@
 # Arrays
 
 ## About
-Arrays are the most basic data structure. For an array, the user must declare its size upfront (though most modern languages handle this behind the scenes) since arrays are stored in adjacent blocks of memory. If you were able to change its size then there would be no guarantee that there would be more memory to use in that block of memory. 
+Arrays are collections of elements that can be identified by an index. They are used to implement a ton of other data structures -- like queues, stacks, lists, and sometimes strings.
 
+```python
+x = [1, 2, 3]
+```
 
-* Arrays hold values referenced by index, so accessing items is very quick. 
-* Strings are arrays of characters, tuples are immutable arrays, and Python lists are dynamically resized arrays.
-* Each cell in an array uses the same number of bytes, so usually the array will actually just store a pointer to the actual object rather than storing it within the contiguous block of memory.
-* ```address = start + (cellsize * index)```
+In most languages, indexing starts at 0. The first item in an array can be found at the index 0. Arrays can also have multiple dimensions so matrix operations commonly use them in computer science.
+
+Arrays are stored in memory contiguously, or in one chunk of space, so the memory address of each element in the array can be computed using this formula `address = start + (cellsize * index)`. So an array with three 32-bit integer variables could be stored at addresses 2000, 2004, 2008 so then the address of an item would be 2000 + 4 * index.
+
+Arrays have a fixed size when they are created, so insertion and deletion is not natively supported. Arrays traditionally are stored in contiguous blocks of memory which makes them very efficient to index. If you were able to change the size of an array during runtime, there would be no guarantee that there would be more memory in its reserved block to use.
+
+Many high level languages take care of resizing behind the scenes by using dynamic arrays, so the user doesn't need to initialize the array with a certain size. For example, in Python, lists are initialized automatically with overfill (or additional unused slots). They resize at 4, 8, 16, 25 etc. items (source)[https://www.laurentluce.com/posts/python-list-implementation/]. From a computational perspective, this makes them less efficient but a lot more programmer friendly!
+
 
 ## Complexity
 
