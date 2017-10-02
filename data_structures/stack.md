@@ -1,7 +1,7 @@
 # Stacks
 
 ## About
-Stacks are data structures (or collections) that orders removal and insertion in a last in, first out (or LIFO) way. There are two operations that define a stack - push and pop. Pushing an item means adding it to the top of the stack. Popping an item means removing it from the top of the stack. Therefore, newer items are at the top and will be accessed first, older items are near the bottom and are accessed last.
+Stacks are data structures (or collections) which order removal and insertion in a last in, first out (or LIFO) way. There are two operations that define a stack - push and pop. Pushing an item means adding it to the top of the stack. Popping an item means removing it from the top of the stack. Therefore, newer items are at the top and will be accessed first, older items are near the bottom and are accessed last.
 
 ![](http://legacy.earlham.edu/~ltnguyen14/cs%20web/pics/stack.png) 
 
