@@ -32,6 +32,7 @@ class Stack:
 		return data 
 ```
 In the above example, the big-O complexity looks like:
+
 |Operation|Complexity|
 |---------|----------|
 |Access   |O(n)      |
@@ -59,6 +60,7 @@ class Stack:
 		return self.data[-1]
 ```
 In the above example, the big-O complexity looks like:
+
 |Operation|Complexity|
 |---------|----------|
 |Access   |O(1)      |
