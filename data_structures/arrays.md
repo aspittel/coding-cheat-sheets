@@ -11,7 +11,7 @@ In most languages, indexing starts at 0. The first item in an array can be found
 
 Arrays are stored in memory contiguously, or in one chunk of space, so the memory address of each element in the array can be computed using this formula `address = start + (cellsize * index)`. So an array with three 32-bit integer variables could be stored at addresses 2000, 2004, 2008 so then the address of an item would be 2000 + 4 * index. In many implementations of arrays, the array block of memory only stores a pointer to the item in the array rather than the item itself in order to support dynamic typing.
 
-Arrays have a fixed size when they are created, so insertion and deletion is not natively supported. Arrays traditionally are stored in contiguous blocks of memory which makes them very efficient to index. If you were able to change the size of an array during runtime, there would be no guarantee that there would be more memory in its reserved block to use.
+Arrays have a fixed size when they are created, so insertion and deletion is not natively supported. If you were able to change the size of an array during runtime, there would be no guarantee that there would be more memory in its reserved block to use.
 
 Many high level languages take care of resizing behind the scenes by using dynamic arrays, so the user doesn't need to initialize the array with a certain size. For example, in Python, lists are initialized automatically with overfill (or additional unused slots). They resize at 4, 8, 16, 25 etc. items ([source](https://www.laurentluce.com/posts/python-list-implementation/)). From a computational perspective, this makes them less efficient but a lot more programmer friendly!
 
