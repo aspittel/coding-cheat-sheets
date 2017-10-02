@@ -68,7 +68,7 @@ class Queue:
         self.length -= 1
         return data
 ```
-In this implementation utilizing a Python list the Big-O complexity looks like this:
+In this implementation utilizing a doubly linked list the Big-O complexity looks like this:
 
 |Operation|Complexity|
 |---------|----------|
