@@ -1,6 +1,6 @@
 # Graphs
 
-## about
+## About
 
 Graphs are non-linear data structures that can show any type of relationship. Many data structures fall under the parent category of graphs -- like linked lists and trees. Graphs have nodes (also called vertices) and edges. The node holds the data and then the edges point to related nodes. There are two types of edges: directed and undirected. Directed edges point in a direction whereas undirected edges point both ways. 
 
