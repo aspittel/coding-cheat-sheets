@@ -33,12 +33,14 @@ In order to access an item or search the list, you must traverse the whole thing
 ## Singly Linked List
 ```python
 class Node:
-	def __init__(self, data, next):
-		self.data = data
-		self.next = next
+
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next
 
 
 class SinglyLinkedList:
+
     def __init__(self):
         self.head = None
         self.length = 0
@@ -60,16 +62,14 @@ class SinglyLinkedList:
 ## Doubly Linked List
 ```python
 class Node:
-	def __init__(self, data, next=None, prev=None):
-		self.data = data
-		self.next = next
+
+    def __init__(self, data, next=None, prev=None):
+        self.data = data
+        self.next = next
         self.prev = prev
 
 
 class DoublyLinkedList:
-    def __init__(self):
-        self.head = None
-        self.tail = None
     
     def __init__(self):
         self.head = None
