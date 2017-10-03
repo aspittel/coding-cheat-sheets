@@ -29,7 +29,7 @@ class BinaryTree:
 * **Edge** - Connection between nodes.
 
 
-## Visual representation of a tree
+## Tree Visual
 ```
           A                     
         ↙   ↘              
