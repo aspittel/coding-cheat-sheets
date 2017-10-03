@@ -48,10 +48,10 @@ class HashTable:
             prev.next = HashEntry(key, value)
 
     def set(self, key, value):
-        _hash = self.hashing_function(key)
-        entry = self.table[_hash]
+        slot = self.hashing_function(key)
+        entry = self.table[slot]
         if not entry:
-            self.table[_hash] = HashEntry(key, value)
+            self.table[slot] = HashEntry(key, value)
         else:
             self.rehash(entry, key, value)
     
@@ -94,9 +94,9 @@ class HashTable:
 ## Complexity
 |Operation|Complexity|
 |---------|----------|
-|Access   |O(1)->O(n)|
-|Search   |O(1)->O(n)|
-|Insert   |O(1)->O(n)|
-|Delete   |O(1)->O(n)| 
+|Access   |O(1) -> O(n)|
+|Search   |O(1) -> O(n)|
+|Insert   |O(1) -> O(n)|
+|Delete   |O(1) -> O(n)| 
 
 The complexities of each of the above operations depend on the hashing function used. A perfect hashing function where keys and values are all known before runtime would run at O(1) for all of the above functions. Most are closer to O(n) in actual applications (like those above). 
