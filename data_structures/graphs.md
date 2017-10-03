@@ -1,6 +1,15 @@
 # Graphs
-Graphs are non-linear data structures that do not necessarily follow a numerical order. Graphs are similar to trees but with essentially no rules. A tree is a graph, but most graphs are not trees. 
 
+##about
+
+Graphs are non-linear data structures that can show any type of relationship. Many data structures fall under the parent category of graphs -- like linked lists and trees. Graphs have nodes (also called vertices) and edges. The node holds the data and then the edges point to related nodes. There are two types of edges: directed and undirected. Directed edges point in a direction whereas undirected edges point both ways. 
+
+Good examples of graphs in use are Facebook friends, Twitter following (which would be directed), or a map of Metro stops.
+
+There are many ways to store a graph data structure. You can use pointers and nodes, or you could use an adjacency list or matrix.
+
+
+## Example Graph
 ```
      A –→ B ←–––– C → D ↔ E
      ↑    ↕     ↙ ↑     ↘
@@ -10,16 +19,18 @@ Graphs are non-linear data structures that do not necessarily follow a numerical
 ```
 Image from [itsy-bitsy-data-structures](https://github.com/thejameskyle/itsy-bitsy-data-structures/blob/master/itsy-bitsy-data-structures.js).
 
-Graphs have nodes (also called verticies) and edges. The node holds the data and then the edges point to related nodes. There are two types of edges: directed and undirected. Directed edges point in a direction whereas undirected edges point both ways. 
+## Glossary
 
-* Good examples of graphs are Facebook friends, Twitter following (which would be directed), or a map of Metro stops.
+* **Edges** - connections between nodes.
+* **Directed** - edges point in a direction.
+* **Undirected** - edges point in both directions.
+* **Euler Path** - path that visits each edge just once. A graph must have either zero or two vertices with an odd degree to have an euler path. 
+* **cycle** - circle made of edges.
 
-* There are many ways to store a graph data structure. You can use pointers and nodes, or you could use an adjacency list or matrix.
-
-* A degree is how many edges a given vertex has. 
-
-* An Euler path visits each edge just once. A graph must have either zero or two verticies with an odd degree to have an euler path. 
-
-* A cycle is a circle mad of edges.
-
-* Both edges and nodes can be weighted.
+## Sample Code
+```python
+class Node:
+      def __init__(self, data):
+            self.data = data
+            self.edges = []
+```
