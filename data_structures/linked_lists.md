@@ -14,10 +14,10 @@ A less common form of linked lists is a circular linked list where the tail poin
 Some linked lists use sentinel nodes, which are "dummy" nodes that ensure the first and or last nodes still point to another. These simplify some algorithms.
 
 ### Singly linked list
-!()[https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png]
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png)
 
 ### Doubly linked list
-!()[https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png]
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
 
 ## Complexity
 
