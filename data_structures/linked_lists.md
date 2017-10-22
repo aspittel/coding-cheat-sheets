@@ -49,6 +49,25 @@ class SinglyLinkedList:
         self.head = Node(data, self.head)
         self.length += 1
     
+    def remove_at_index(self, idx):
+        dummy = Node(None, self.head)
+        prev, curr = dummy, dummy.next
+        check_idx = 0
+        
+        while curr:
+            print(idx, check_idx)
+            if idx == check_idx:
+                prev.next = curr.next
+                curr.next = None
+            check_idx += 1
+            prev, curr = curr, curr.next
+
+    def iterate(self):
+        node = self.head
+        while(node):
+            print(node.data)
+            node = node.next
+
     def search(self, data):
         idx = 0
         node = self.head
