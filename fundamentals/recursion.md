@@ -10,7 +10,7 @@ def factorial(n):
 ```
 
 ## Memoization
-Memoization is often useful in recursion. This is when the results of a function call are remembered so they can be used again in later function calls. This is like cahching your results to use again.
+Memoization is often useful in recursion. This is when the results of a function call are remembered so they can be used again in later function calls. This is like caching your results to use again.
 
 ### Code Example
 ```python
