@@ -43,7 +43,7 @@ class BinaryTree:
 
 ## Recursive Search
 
-```
+```python
 def search_recursively(key, node):
     if node is None or node.key == key:
         return node
@@ -54,7 +54,7 @@ def search_recursively(key, node):
 ```
 
 ## Iteratively
-```
+```python
 def search_iteratively(key, node): 
     current_node = node
     while current_node is not None:
@@ -69,7 +69,7 @@ def search_iteratively(key, node):
 
 * **Insertion** - Insertion begins as a search would begin; if the key is not equal to that of the root, we search the left or right subtrees as before. Eventually, we will reach an external node and add the new key-value pair (here encoded as a record 'newNode') as its right or left child, depending on the node's key. In other words, we examine the root and recursively insert the new node to the left subtree if its key is less than that of the root, or the right subtree if its key is greater than or equal to the root.
 
-```
+```python
 def binary_tree_insert(node, key, value):
    if node is None:
        return NodeTree(None, key, value, None)
@@ -82,7 +82,7 @@ def binary_tree_insert(node, key, value):
 
 * **Deletion** - When removing a node from a binary search tree it is mandatory to maintain the in-order sequence of the nodes.
 
-```
+```python
 def find_min(self):   # Gets minimum node in a subtree
     current_node = self
     while current_node.left_child:
@@ -122,7 +122,7 @@ def binary_tree_delete(self, key):
 
 The code for in-order traversal in Python is given below. It will call callback (some function the programmer wishes to call on the node's value, such as printing to the screen) for every node in the tree.
 
-```
+```python
 def traverse_binary_tree(node, callback):
     if node is None:
         return
