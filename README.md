@@ -11,7 +11,8 @@ Simple, quick cheat sheets on computer science concepts.
 * [Hash Tables](/data_structures/hash_tables.md)
 * [Heaps](/data_structures/heaps.md)
 * [Linked Lists](/data_structures/linked_lists.md)
-* [Queues](/data_structures/queues.md)
+* [Queues](/data_structures/queue.md)
+* [Stacks](/data_structures/stack.md)
 * [Trees](/data_structures/trees.md)
 
 ## Fundamentals
