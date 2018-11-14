@@ -28,9 +28,9 @@ Tail recursion is where calculations are performed first and then the recursive 
 
 ```python
 def factorial(n, running_total=1):
-	if x <= 1:
+	if n <= 1:
 		return running_total
-	return factorial(x-1, x * running_total)
+	return factorial(n-1, n * running_total)
 ```
 
 ## Practice Problems
