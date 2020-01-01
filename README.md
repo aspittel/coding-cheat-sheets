@@ -6,7 +6,6 @@ Simple, quick cheat sheets on computer science concepts.
 
 ## Data Structures
 * [Arrays](/data_structures/arrays.md)
-* [Binary Search Trees](/data_structures/binary_search_trees.md)
 * [Graphs](/data_structures/graphs.md)
 * [Hash Tables](/data_structures/hash_tables.md)
 * [Heaps](/data_structures/heaps.md)
