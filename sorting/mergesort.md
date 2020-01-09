@@ -8,7 +8,7 @@ Merge sorting is usually more efficient than bubble sorting unless the array is 
 def merge_sort(li):
 	# recursively split the lists
 	if len(li) <= 1: return li
-	middle = len(li) / 2
+	middle = round(len(li) / 2)
 	left = li[:middle]
 	right = li[middle:]
 	return merge(merge_sort(left), merge_sort(right))
