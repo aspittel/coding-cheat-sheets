@@ -44,4 +44,4 @@ int  main () {
 | --------------|:-----------:| -----:|
 | O(N^2) | O(N^2) | O(N^2)|
 
-* [Animated Quick Sort Display](https://www.toptal.com/developers/sorting-algorithms/selection-sort)
+* [Animated Selection Sort Display](https://www.toptal.com/developers/sorting-algorithms/selection-sort)
