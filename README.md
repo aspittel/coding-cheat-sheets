@@ -27,6 +27,7 @@ Simple, quick cheat sheets on computer science concepts.
 * [Bubble Sort](/sorting/bubblesort.md)
 * [Merge Sort](/sorting/mergesort.md)
 * [Quick Sort](/sorting/quicksort.md)
+* [Selection Sort](/sorting/selectionsort.md)
 
 ## Contribute
 Feel free to add pull requests to add information to any of these sheets or create a new one!
