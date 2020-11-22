@@ -2,7 +2,7 @@
 
 ## About
 
-A queue is a data structure that operates on a first in first out basis, similar to a line for a movie. The two operations that define a queue are enqueue and dequeue. Enqueue adds an item to the back of the queue, dequeue removes an item from the back of the queue.
+A queue is a data structure that operates on a first in first out basis, similar to a line for a movie. The two operations that define a queue are enqueue and dequeue. Enqueue adds an item to the back of the queue, dequeue removes an item from the front of the queue.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png)
 
